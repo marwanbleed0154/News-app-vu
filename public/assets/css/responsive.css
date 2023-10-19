@@ -1,0 +1,16 @@
+@media (max-width:959px){
+    .navbar_menu.d-flex{display: none !important;}
+    .navigation_bar .v-container{padding-left: 0px;}
+    .navigation_bar .v-navigation-drawer.v-navigation-drawer--active {display: block;}
+}
+@media (max-width:599px){
+    .headline_img{height: 250px !important;}
+    .v-card.headline_list .v-card-title{font-size: 18px;font-weight: 400;padding: 0px;}
+}
+@media (max-width:480px){
+    .headline_img {height: 200px !important;}
+}  
+@media (max-width:375px){
+    .headline_img {height: 170px !important;}
+    .navigation_bar .v-toolbar-title__placeholder{font-size: 16px;}
+}
